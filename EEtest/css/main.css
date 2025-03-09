@@ -25,6 +25,7 @@ body {
 .popup {
     background-color: var(--secondbackground-color);
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
     width: 50vh;
     display: flex;
@@ -37,6 +38,7 @@ body {
 .popup h1 {
     font-family: "Work Sans", sans-serif;
     font-size: 2rem;
+    color: black;
 }
 
 .popup .signup a {

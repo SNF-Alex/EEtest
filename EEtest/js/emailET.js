@@ -42,7 +42,7 @@ async function signUp() {
         message.style.backgroundColor = "green";
 
         setTimeout(() => {
-            window.location.href = "signin.html"; // Redirect to sign-in page after sign-up
+            window.location.href = "index.html"; // Redirect to sign-in page after sign-up
         }, 1500);
     }
 
