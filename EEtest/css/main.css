@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
+
+:root {
+    --firstbackground-color: rgb(77, 73, 73);
+    --secondbackground-color: rgb(95, 95, 95);
+    --infobackground-color: rgb(141, 141, 141);
+    --errorbackground-color: rgb(215, 5, 5);
+}
+
+body {
+    background-color: var(--firstbackground-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.popup {
+    background-color: var(--secondbackground-color);
+    border-radius: 5px;
+    padding: 20px;
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup h1 {
+    font-family: "Work Sans", sans-serif;
+    font-size: 2rem;
+}
+
+.popup .signup a {
+    color: rgb(122, 122, 249);
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.popup .signup a:hover {
+    color: rgb(232, 88, 88);
+}
+
+input {
+    background-color: var(--infobackground-color);
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    height: 2rem;
+    width: 70%;
+    border-radius: 20px;
+    padding-left: 0.5rem;
+    border: none;
+    outline: none;
+}
+
+button {
+    background-color: rgb(122, 122, 249);
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(232, 88, 88);
+}
+
+#message {
+    background-color: var(--errorbackground-color);
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#message {
+    display: none;
+}

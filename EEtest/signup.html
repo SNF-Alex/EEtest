@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="popup">
+        <h1>Sign Up</h1>
+
+        <input type="email" id="signupEmail" class="email" placeholder="Enter your email">
+        <input type="email" id="reenterEmail" class="email" placeholder="Re-enter your email">
+        <input type="password" id="signupPassword" class="password" placeholder="Enter your password">
+        <input type="password" id="reenterPassword" class="password" placeholder="Re-enter your password">
+
+        <button onclick="signUp()">Sign Up</button>
+
+        <div class="signup">
+            <a href="signin.html">Already have an account? Sign In</a>
+        </div>
+
+        <p id="message"></p>
+    </div>
+
+    <script src="js/emailET.js"></script>
+</body>
+</html>
